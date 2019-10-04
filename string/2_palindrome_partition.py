@@ -1,5 +1,5 @@
 class Solution:
-    def partition(self, s: str) -> List[List[str]]:
+    def partition(self, s):
         def isPalindrome(s, low, high):
             while low < high:
                 if s[low] != s[high]:
